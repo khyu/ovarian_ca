@@ -6,12 +6,16 @@ Due to the file size limit of GitHub, we uploaded our convolutional neural netwo
 
 ## 1. Serous ovarian carcinoma versus adjacent benign tissue:
 AlexNet-based Model: [https://www.dropbox.com/s/cvom9wced4ltuhs/alexnet.caffemodel?dl=0](https://www.dropbox.com/s/cvom9wced4ltuhs/alexnet.caffemodel?dl=0)
+
 GoogLeNet-based Model: [https://www.dropbox.com/s/l8gjebhvgpyre13/googlenet.caffemodel?dl=0](https://www.dropbox.com/s/l8gjebhvgpyre13/googlenet.caffemodel?dl=0)
+
 VGGNet-based Model: [https://www.dropbox.com/s/w7zmkjsmpxxvikd/vgg.caffemodel?dl=0](https://www.dropbox.com/s/w7zmkjsmpxxvikd/vgg.caffemodel?dl=0)
 
 ## 2. Serous ovarian carcinoma grade classification:
 AlexNet-based Model: [https://www.dropbox.com/s/nou416u1b0gw3bg/alexnet.caffemodel?dl=0](https://www.dropbox.com/s/nou416u1b0gw3bg/alexnet.caffemodel?dl=0)
+
 GoogLeNet-based Model: [https://www.dropbox.com/s/5v56ikpy6js29oc/googlenet.caffemodel?dl=0](https://www.dropbox.com/s/5v56ikpy6js29oc/googlenet.caffemodel?dl=0)
+
 VGGNet-based Model: [https://www.dropbox.com/s/e9b4gnjksrjnt5o/vgg.caffemodel?dl=0](https://www.dropbox.com/s/e9b4gnjksrjnt5o/vgg.caffemodel?dl=0)
 
 ## 3. Platinum-free interval prediction:
