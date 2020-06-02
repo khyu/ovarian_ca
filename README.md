@@ -45,5 +45,7 @@ caffe test -model model.prototxt -weights model.caffemodel
 
 ### Additional documentation:
 Caffe Installation: http://caffe.berkeleyvision.org/installation.html
+
 Caffe Tutorial: http://caffe.berkeleyvision.org/tutorial/
+
 Caffe Command Line Interfaces: https://caffe.berkeleyvision.org/tutorial/interfaces.html
