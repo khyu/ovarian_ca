@@ -21,6 +21,9 @@ VGGNet-based Model: [https://www.dropbox.com/s/e9b4gnjksrjnt5o/vgg.caffemodel?dl
 ## 3. Platinum-free interval prediction:
 VGGNet-based Model: [https://www.dropbox.com/s/7i9siypn1asp572/VggModel.h5?dl=0](https://www.dropbox.com/s/7i9siypn1asp572/VggModel.h5?dl=0)
 
+## Codes for differential expression analyses of the transcriptomics and proteomics data
+The R codes for the differential expression analyses are under differentialExpression/.
+
 
 ## To install Caffe in Ubuntu 16.04 or later:
 ### Step 1: Install the general dependencies:
