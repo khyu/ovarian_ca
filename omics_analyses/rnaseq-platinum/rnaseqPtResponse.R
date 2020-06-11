@@ -7,14 +7,14 @@
 rm(list=ls())
 
 # read files
-load("fpkm.RData")
-rnaSeqIDs<-read.table("fpkmID.txt", sep=",", stringsAsFactors=F)
-rnaSeqElemIDs<-read.table("fpkmGeneNames.txt", sep=",", stringsAsFactors=F)
+load("../data/fpkm.RData")
+rnaSeqIDs<-read.table("../data/fpkmID.txt", sep=",", stringsAsFactors=F)
+rnaSeqElemIDs<-read.table("../data/fpkmGeneNames.txt", sep=",", stringsAsFactors=F)
 
 rnaSeq<-rnaSeqFile[order(rnaSeqIDs[,1]),]
 rnaSeqIDs<-rnaSeqIDs[order(rnaSeqIDs[,1]),1]
 
-pfi<-read.table("pfi.txt", sep=" ", stringsAsFactors=F)
+pfi<-read.table("../data/pfi.txt", sep=" ", stringsAsFactors=F)
 
 pfi<-pfi[pfi[,3]==1,]
 

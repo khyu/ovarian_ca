@@ -1,6 +1,6 @@
 # Deciphering Serous Ovarian Carcinoma Histopathology and Platinum Response by Convolutional Neural Networks
 
-All histopathology models are trained by Caffe version 1.0. Caffe is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors and released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE). The source codes of this software dependency is included under the caffe directory.
+All histopathology models are trained by Caffe version 1.0. Caffe is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors and released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE). The source codes of this software dependency are included under the caffe directory.
 
 Due to the file size limit of GitHub, we uploaded our convolutional neural networks models at the links below:
 
@@ -45,7 +45,7 @@ make test
 make runtest
 ```
 
-## To use the models in command line:
+## To use the models in the command line:
 ```
 caffe test -model model.prototxt -weights model.caffemodel
 ```

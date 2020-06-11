@@ -10,14 +10,14 @@ rm(list=ls())
 
 ## fold change
 # read files
-proteomicsFile<-read.table("proteomics.csv", sep=",")
-proteomicsIDs<-read.table("proteomicsID.csv", sep=",", stringsAsFactors=F)
-proteomicsGeneNames<-read.table("proteinNames.csv", sep=",", stringsAsFactors=F)
+proteomicsFile<-read.table("../data/proteomics.csv", sep=",")
+proteomicsIDs<-read.table("../data/proteomicsID.csv", sep=",", stringsAsFactors=F)
+proteomicsGeneNames<-read.table("../data/proteinNames.csv", sep=",", stringsAsFactors=F)
 
 proteomics<-t(proteomicsFile[,order(proteomicsIDs[1,])])
 proteomicsIDs<-proteomicsIDs[1,order(proteomicsIDs[1,])]
 
-clinicalOV<-read.table("nationwidechildrens.org_clinical_patient_ov.txt", sep="\t", skip=3, stringsAsFactors=F)
+clinicalOV<-read.table("../data/clinical.txt", sep="\t", skip=3, stringsAsFactors=F)
 
 grade<-as.data.frame(cbind(clinicalOV[,2],clinicalOV[,20]))
 grade[,2]<-as.character(grade[,2])

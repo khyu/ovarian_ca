@@ -25,7 +25,7 @@ make test
 make runtest
 ```
 
-## To use the models in command line:
+## To use the models in the command line:
 ```
 caffe test -model model.prototxt -weights model.caffemodel
 ```

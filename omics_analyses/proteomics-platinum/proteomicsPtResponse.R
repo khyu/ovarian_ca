@@ -7,14 +7,14 @@
 rm(list=ls())
 setwd("~/Dropbox (HMS)/tcgaOV/omicsPtResponse")
 
-proteomicsFile<-read.table("proteomics.csv", sep=",")
-proteomicsIDs<-read.table("proteomicsID.csv", sep=",", stringsAsFactors=F)
-proteomicsGeneNames<-read.table("proteinNames.csv", sep=",", stringsAsFactors=F)
+proteomicsFile<-read.table("../data/proteomics.csv", sep=",")
+proteomicsIDs<-read.table("../data/proteomicsID.csv", sep=",", stringsAsFactors=F)
+proteomicsGeneNames<-read.table("../data/proteinNames.csv", sep=",", stringsAsFactors=F)
 
 proteomics<-t(proteomicsFile[,order(proteomicsIDs[1,])])
 proteomicsIDs<-proteomicsIDs[1,order(proteomicsIDs[1,])]
 
-pfi<-read.table("../cnn/pfi/regression/filenames/pfiCensoringUnion.txt", sep=" ", stringsAsFactors=F)
+pfi<-read.table("../data/pfi.txt", sep=" ", stringsAsFactors=F)
 
 pfi<-pfi[pfi[,3]==1,]
 

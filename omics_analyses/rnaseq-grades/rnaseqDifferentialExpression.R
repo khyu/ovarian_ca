@@ -13,14 +13,14 @@ rm(list=ls())
 library(ggplot2)
 
 # read files
-load("fpkm.RData")
-rnaSeqIDs<-read.table("fpkmID.txt", sep=",", stringsAsFactors=F)
-rnaSeqElemIDs<-read.table("fpkmGeneNames.txt", sep=",", stringsAsFactors=F)
+load("../data/fpkm.RData")
+rnaSeqIDs<-read.table("../data/fpkmID.txt", sep=",", stringsAsFactors=F)
+rnaSeqElemIDs<-read.table("../data/fpkmGeneNames.txt", sep=",", stringsAsFactors=F)
 
 rnaSeq<-rnaSeqFile[order(rnaSeqIDs[,1]),]
 rnaSeqIDs<-rnaSeqIDs[order(rnaSeqIDs[,1]),1]
 
-clinicalOV<-read.table("clinical.txt", sep="\t", skip=3, stringsAsFactors=F)
+clinicalOV<-read.table("../data/clinical.txt", sep="\t", skip=3, stringsAsFactors=F)
 table(clinicalOV[,20])
 
 grade<-as.data.frame(cbind(clinicalOV[,2],clinicalOV[,20]))
