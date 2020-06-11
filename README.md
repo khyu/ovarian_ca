@@ -1,6 +1,6 @@
 # Deciphering Serous Ovarian Carcinoma Histopathology and Platinum Response by Convolutional Neural Networks
 
-All models are trained by Caffe version 1.0. Caffe is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors and released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE). The source codes of this software dependency is included under the caffe directory.
+All histopathology models are trained by Caffe version 1.0. Caffe is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors and released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE). The source codes of this software dependency is included under the caffe directory.
 
 Due to the file size limit of GitHub, we uploaded our convolutional neural networks models at the links below:
 
@@ -21,8 +21,8 @@ VGGNet-based Model: [https://www.dropbox.com/s/e9b4gnjksrjnt5o/vgg.caffemodel?dl
 ## 3. Platinum-free interval prediction:
 VGGNet-based Model: [https://www.dropbox.com/s/7i9siypn1asp572/VggModel.h5?dl=0](https://www.dropbox.com/s/7i9siypn1asp572/VggModel.h5?dl=0)
 
-## Codes for differential expression analyses of the transcriptomics and proteomics data
-The R codes for the differential expression analyses are under differentialExpression/.
+## Proteomics and transcriptomics analyses of tumor grade and platinum response
+The models for the differential expression analyses and predictive analyses are under omics_analyses/.
 
 
 ## To install Caffe in Ubuntu 16.04 or later:
