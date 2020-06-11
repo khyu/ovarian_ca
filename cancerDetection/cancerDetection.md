@@ -1,6 +1,6 @@
 # Deciphering Serous Ovarian Carcinoma Histopathology and Platinum Response by Convolutional Neural Networks
 
-## 1. Serous ovarian carcinoma versus adjacent benign tissue:
+## Serous ovarian carcinoma versus adjacent benign tissue:
 Due to the file size limit of GitHub, we uploaded our convolutional neural networks models at the links below:
 
 AlexNet-based Model: [https://www.dropbox.com/s/cvom9wced4ltuhs/alexnet.caffemodel?dl=0](https://www.dropbox.com/s/cvom9wced4ltuhs/alexnet.caffemodel?dl=0)

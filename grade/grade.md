@@ -1,6 +1,6 @@
 # Deciphering Serous Ovarian Carcinoma Histopathology and Platinum Response by Convolutional Neural Networks
 
-## 2. Serous ovarian carcinoma grade classification:
+## Serous ovarian carcinoma grade classification:
 Due to the file size limit of GitHub, we uploaded our convolutional neural networks models at the links below:
 
 AlexNet-based Model: [https://www.dropbox.com/s/nou416u1b0gw3bg/alexnet.caffemodel?dl=0](https://www.dropbox.com/s/nou416u1b0gw3bg/alexnet.caffemodel?dl=0)
